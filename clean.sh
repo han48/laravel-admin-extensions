@@ -9,6 +9,6 @@ php artisan config:clear
 php artisan view:clear
 php artisan cache:clear
 php artisan migrate:fresh --seed
-php artisan vendor:publish --all
+# php artisan vendor:publish --all --force
 php artisan storage:link
 php artisan serve
